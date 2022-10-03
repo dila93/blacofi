@@ -16,7 +16,10 @@
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
+  "homepage":"https://dila93.github.io/blacofi",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
